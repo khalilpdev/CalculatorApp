@@ -15,6 +15,26 @@
                        FontSize="50" />
             </VerticalStackLayout>
         </Border>
+
+        <Grid Grid.Row="1"
+              RowDefinitions="*,*,*,*"
+              ColumnDefinitions="*,*,*,*">
+
+            <Button Grid.Row="0"
+                    Grid.Column="0"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    CornerRadius="40"
+                    FontSize="32"
+                    FontAttributes="Bold"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource CustomLightGreen},
+                                                      Dark={StaticResource CustomLightGreen}}"
+                    TextColor="{AppThemeBinding Light=DarkSlateGrey,
+                                                Dark={StaticResource CustomLightBlue}}"
+                    Text="AC" />
+
+        </Grid>
     </Grid>
+    
 
 </ContentPage>

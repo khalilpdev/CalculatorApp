@@ -25,4 +25,3 @@ namespace MauiApp1
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
 }
-roid
